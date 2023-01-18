@@ -1,0 +1,132 @@
+# ═══════════════
+# Have Fun!
+# ═══════════════
+#
+# ColorCodes can be used as normal. (&a,&1, .....)
+#
+# !!! If you insert values with special characters then you have to check if quotes exists! If not then you can add ' manually before and after the value.
+# exampleQUOTES: ':, {, }, [, ], ,, &, *, #, ?, |, -, <, >, =, !, %, @, \, all others'
+#
+# Linebreaks can be done if you quote the value with " and use \n where you want a linebreak.
+# exampleLinebreak: "Some stuff here. \nSome stuff there"
+#
+
+# You should not disable this if you have no problems with it. It keeps the config up to date!
+# If you have any problems with it then contact Cerexus#1348 on Discord!
+automatic_config_updater: false
+
+use_permissions: false
+home_limit: 36
+command_cooldown_home: 90
+teleport_delay: 5
+teleport_delay_check_movement: true
+updatecheck_daily: true
+updatecheck_operators_notify: true
+updatecheck_entitled_notify: true
+home_tab_complete: true
+deactivate_homes_over_limit: false
+support_essentialsx_command_back: false
+teleport_sound: true
+teleport_particle: true
+
+Database:
+  SQLite: true
+    # Only use MySQL if you want bungeecord support! No migration between SQLite and MySQL possible currently (AND it don`t makes sense to do that)!
+  MySQL_only_for_bungee:
+    enabled: false
+        #Please read the headline if you have special characters here!
+    host: 127.0.0.1
+    port: 3306
+    username: ''
+    password: ''
+    database: ''
+    table_prefix: ''
+
+Commands:
+  command_home: home
+  command_homes: homes
+  command_sethome: sethome
+  command_removehome: delhome
+
+Messages:
+  prefix: '&7[&3&l世界传送&7] '
+  no_primary_home: '&e你没有设置家.'
+  no_home: '&e找不到传送点.'
+  home_not_found: '&e找不到指定的传送点.'
+  home_location_changed: '&成功更新传送点.'
+  home_location_change_not_possible_here: '&e你不能改变此传送点.'
+  home_location_set_not_possible_here: '&e不支持在此处设置传送点.'
+  plugin_disabled_here: '&e你不能在这使用该命令.'
+  symbol_changed: '&e标志已改变.'
+  no_valid_name: '&c传送点名称无效.'
+  home_location_set: '&e传送点已设置.'
+  home_deleted: '&a已删除传送点.'
+  home_delete_canceled: '&c取消操作成功.'
+  home_teleported: '&a传送成功.'
+  home_reached_limit: '&c传送点数量已达上限.'
+  home_deactivated: '&c传送点已被关闭!'
+  home_set_primary: '&aChanged your primary home.'
+#placeholders: {seconds}
+  cooldown_message: '&e你需要等待 &9{seconds} &e秒后传送.'
+  corrupted: '&c这个传送点已经损坏了，请更改位置.'
+  no_permissions: '&c你没有权限这么做!'
+  no_home_other: '&c这可怜的孩子无家可归.'
+  error_fetching_uuid: '&c在获取玩家UUID时发生错误. 这个名字不存在，或者Minecraft API目前不可用.'
+#placeholders: {seconds}
+  delayed_teleport: '&7将在 {seconds}s后传送... 不要移动!'
+  delayed_teleport_already_in_progress: '&c一个传送已经在进行中!'
+  delayed_teleport_cancel_movement: '&c传送被取消! 你进行了移动!'
+  no_number: '&c这不是一个有效的值.'
+  added_extra_home: '&a成功添加传送点.'
+  removed_extra_home: '&a成功移除传送点.'
+  set_extra_home: '&a成功设置传送点.'
+#placeholders: {player}, {total_homes}, {extra_homes}
+  info_homes: '&9{player} &ahas actual &9{total_homes} &ahomes and is able to create
+    &9{extra_homes} &aextra homes over the limit(this also applies to permission limits).'
+  dupplicate_name: '&e已经有一个同样名字的传送点了.'
+  bungeecord_server_offline: '&e传送点所在的服务器已离线.'
+
+Gui:
+  gui_overview: '&e传送点总览'
+  gui_overview_unnamed: '&7未命名'
+  gui_overview_named: '&5'
+  gui_overview_placeholder: '&8&l______________________'
+  gui_overview_left_click: '&e左键点击&b传送!'
+  gui_overview_corrupted: '&c已损坏! 请更新位置.'
+  gui_overview_right_click: '&e右键点击&b编辑!'
+  gui_overview_bedrock_click: '&e点击&b编辑!'
+  gui_overview_back: '&a上一页'
+  gui_overview_forth: '&a下一页'
+  gui_settings: '&e设置'
+  gui_settings_name_change: '&e重命名'
+  gui_settings_name_change_description: '&e更改传送点名称.'
+  gui_settings_location_change: '&e位置更新'
+  gui_settings_location_change_description: '&e改变传送点位置.'
+  gui_settings_symbol_change: '&e改变标志'
+  gui_settings_symbol_change_description: '&e改变传送点标志.'
+  gui_settings_home_delete: '&e删除'
+  gui_settings_home_delete_description: '&e删除传送点.'
+  gui_settings_home_delete_confirm: '&a确认删除'
+  gui_settings_home_delete_confirm_description: '&c删除无法被撤销.'
+  gui_settings_home_delete_cancel: '&c取消删除'
+  gui_settings_home_delete_cancel_description: '&c删除将会取消.'
+  gui_settings_set_primary: '&a设置家'
+  gui_settings_set_primary_description: '&a设置这个传送点作为你的家.'
+  gui_settings_bedrock_click: '&e点击 &b进行传送!'
+  gui_overview_primary: '&a你的家.'
+  gui_home_deactivated: '&c停止工作'
+#placeholders: {player}
+  gui_overview_other: '&e{player}'
+  gui_overview_information_title: '&e信息'
+#placeholders: {total_homes}, {max_homes}, {extra_homes}, {homes_left}
+  gui_overview_information_lore:
+    - '&3家数量: &b{total_homes}'
+    - '&3总槽位: &b{max_homes}'
+    - '&3传送点: &b{extra_homes}'
+    - '&3剩余槽位: &b{homes_left}'
+  gui_overview_information_player_offline: §c玩家离线
+
+acf-core:
+#placeholders: {command}, {syntax}
+  invalid_syntax: '&7[&3&lUltra SetHome&7] &e请使用: &a{command} {syntax}'
+  unknown_command: '&7[&3&lUltra SetHome&7] &c未知命令.'

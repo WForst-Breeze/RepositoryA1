@@ -1,0 +1,188 @@
+template:
+  - default:
+      - lore:
+          - ""
+          - "§a§l==========CreamsAlmighty=========="
+          - "               §b§l防爆强化"
+          - "         §b§l✦✧✧✧✧✧✧✧✧✧"
+          - "§a§l==========CreamsAlmighty=========="
+          - ""
+        WeaponEnchant:
+          - "sharpness:1"
+        ArmorEnchant:
+          - "protection:1"
+        BowEnchant:
+          - "power:1"
+        chance: "1"
+        successTips: "§a恭喜你！强化成功，当前武器等级 ✦✧✧✧✧✧✧✧✧✧"
+        failureTips: "§c很遗憾！强化失败，当前武器等级 ✧✧✧✧✧✧✧✧✧✧"
+        enableFailureDamage: false
+
+      - lore:
+          - ""
+          - "§a§l==========CreamsAlmighty=========="
+          - "               §b§l防爆强化"
+          - "         §b§l✦✦✧✧✧✧✧✧✧✧"
+          - "§a§l==========CreamsAlmighty=========="
+          - ""
+        WeaponEnchant:
+          - "sharpness:2"
+        ArmorEnchant:
+          - "protection:2"
+        BowEnchant:
+          - "power:2"
+        chance: "0.95"
+        successTips: "§a恭喜你！强化成功，当前武器等级 ✦✦✧✧✧✧✧✧✧✧"
+        failureTips: "§c很遗憾！强化失败，当前武器等级 ✦✧✧✧✧✧✧✧✧"
+        enableFailureDamage: false
+
+      - lore:
+          - ""
+          - "§a§l==========CreamsAlmighty=========="
+          - "               §b§l防爆强化"
+          - "         §b§l✦✦✦✧✧✧✧✧✧✧"
+          - "§a§l==========CreamsAlmighty=========="
+          - ""
+        WeaponEnchant:
+          - "sharpness:3"
+        ArmorEnchant:
+          - "protection:3"
+        BowEnchant:
+          - "power:3"
+        chance: "0.85"
+        successTips: "§a恭喜你！强化成功，当前武器等级 ✦✦✦✧✧✧✧✧✧✧"
+        failureTips: "§c很遗憾！强化失败，当前武器等级 ✦✧✧✧✧✧✧✧✧✧"
+        enableFailureDamage: false
+
+
+      - lore:
+          - ""
+          - "§a§l==========CreamsAlmighty=========="
+          - "               §b§l防爆强化"
+          - "         §b§l✦✦✦✦✧✧✧✧✧✧"
+          - "§a§l==========CreamsAlmighty=========="
+          - ""
+        WeaponEnchant:
+          - "sharpness:4"
+        ArmorEnchant:
+          - "protection:4"
+        BowEnchant:
+          - "power:4"
+        chance: "0.8"
+        successTips: "§a恭喜你！强化成功，当前武器等级 ✦✦✦✦✧✧✧✧✧✧"
+        failureTips: "§c很遗憾！强化失败，当前武器等级 ✦✦✦✧✧✧✧✧✧✧"
+        enableFailureDamage: false
+
+      - lore:
+          - ""
+          - "§a§l==========CreamsAlmighty=========="
+          - "               §b§l防爆强化"
+          - "         §b§l✦✦✦✦✦✧✧✧✧✧"
+          - "§a§l==========CreamsAlmighty=========="
+          - ""
+        WeaponEnchant:
+          - "sharpness:5"
+        ArmorEnchant:
+          - "protection:5"
+        BowEnchant:
+          - "power:5"
+        chance: "0.75"
+        successTips: "§a恭喜你！强化成功，当前武器等级 ✦✦✦✦✦✧✧✧✧✧"
+        failureTips: "§c很遗憾！强化失败，当前武器等级 ✦✦✦✦✧✧✧✧✧✧"
+        enableFailureDamage: false
+
+
+      - lore:
+          - ""
+          - "§a§l==========CreamsAlmighty=========="
+          - "               §b§l防爆强化"
+          - "         §b§l✦✦✦✦✦✦✧✧✧✧"
+          - "§a§l==========CreamsAlmighty=========="
+          - ""
+        WeaponEnchant:
+          - "sharpness:6"
+        ArmorEnchant:
+          - "protection:6"
+        BowEnchant:
+          - "power:6"
+        chance: "0.5"
+        successTips: "§a恭喜你！强化成功，当前武器等级 ✦✦✦✦✦✦✧✧✧✧"
+        failureTips: "§c很遗憾！强化失败，当前武器等级 ✦✦✦✦✧✧✧✧✧✧"
+        enableFailureDamage: true
+
+
+      - lore:
+          - ""
+          - "§a§l==========CreamsAlmighty=========="
+          - "               §b§l防爆强化"
+          - "         §b§l✦✦✦✦✦✦✦✧✧✧"
+          - "§a§l==========CreamsAlmighty=========="
+          - ""
+        WeaponEnchant:
+          - "sharpness:7"
+        ArmorEnchant:
+          - "protection:7"
+        BowEnchant:
+          - "power:7"
+        chance: "0.35"
+        successTips: "§a恭喜你！强化成功，当前武器等级 ✦✦✦✦✦✦✦✧✧✧"
+        failureTips: "§c很遗憾！强化失败，当前武器等级 ✦✦✦✦✦✧✧✧✧✧"
+        enableFailureDamage: true
+
+
+      - lore:
+          - ""
+          - "§a§l==========CreamsAlmighty=========="
+          - "               §b§l防爆强化"
+          - "         §b§l✦✦✦✦✦✦✦✦✧✧"
+          - "§a§l==========CreamsAlmighty=========="
+          - ""
+        WeaponEnchant:
+          - "sharpness:8"
+        ArmorEnchant:
+          - "protection:8"
+        BowEnchant:
+          - "power:8"
+        chance: "0.2"
+        successTips: "§a恭喜你！强化成功，当前武器等级 ✦✦✦✦✦✦✦✦✧✧"
+        failureTips: "§c很遗憾！强化失败，当前武器等级 ✦✦✦✦✦✦✧✧✧✧"
+        enableFailureDamage: true
+
+
+      - lore:
+          - ""
+          - "§a§l==========CreamsAlmighty=========="
+          - "               §b§l防爆强化"
+          - "         §b§l✦✦✦✦✦✦✦✦✦✧"
+          - "§a§l==========CreamsAlmighty=========="
+          - ""
+        WeaponEnchant:
+          - "sharpness:9"
+        ArmorEnchant:
+          - "protection:9"
+        BowEnchant:
+          - "power:9"
+        chance: "0.15"
+        successTips: "§a恭喜你！强化成功，当前武器等级 ✦✦✦✦✦✦✦✦✦✧"
+        failureTips: "§c很遗憾！强化失败，当前武器等级 ✦✦✦✦✦✦✦✧✧✧"
+        enableFailureDamage: true
+
+
+      - lore:
+          - ""
+          - "§a§l==========CreamsAlmighty=========="
+          - "               §b§l防爆强化"
+          - "         §b§l✦✦✦✦✦✦✦✦✦✦"
+          - "§a§l==========CreamsAlmighty=========="
+          - ""
+        WeaponEnchant:
+          - "sharpness:10"
+        ArmorEnchant:
+          - "protection:10"
+        BowEnchant:
+          - "power:10"
+        chance: "0.1"
+        successTips: "§a恭喜你！强化成功，当前武器等级 ✦✦✦✦✦✦✦✦✦✦"
+        failureTips: "§c很遗憾！强化失败，当前武器等级 ✦✦✦✦✦✦✦✦✧✧"
+        enableFailureDamage: true
+

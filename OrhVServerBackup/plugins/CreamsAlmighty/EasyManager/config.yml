@@ -1,0 +1,8 @@
+#是否启用物品保护
+enableItemProtect: true
+
+#启用物品保护的世界
+itemProtectWorld:
+  - '%ALL%'     #全部
+
+itemProtectTips: "§b§l请保管好您的个人物品，请勿随意丢弃！"

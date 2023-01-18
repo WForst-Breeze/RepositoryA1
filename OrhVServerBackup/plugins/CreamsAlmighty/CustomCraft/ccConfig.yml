@@ -1,0 +1,50 @@
+weaponList:
+  - STONE_SWORD
+  - IRON_SWORD
+  - GOLDEN_SWORD
+  - GOLDEN_SWORD
+  - STONE_SWORD
+  - DIAMOND_SWORD
+  - NETHERITE_SWORD
+
+armorList:
+  - LEATHER_HELMET
+  - CHAINMAIL_HELMET
+  - IRON_HELMET
+  - GOLDEN_HELMET
+  - DIAMOND_HELMET
+  - NETHERITE_HELMET
+  - TURTLE_HELMET
+  - LEATHER_CHESTPLATE
+  - CHAINMAIL_CHESTPLATE
+  - IRON_CHESTPLATE
+  - GOLDEN_CHESTPLATE
+  - DIAMOND_CHESTPLATE
+  - NETHERITE_CHESTPLATE
+  - LEATHER_LEGGINGS
+  - CHAINMAIL_LEGGINGS
+  - IRON_LEGGINGS
+  - GOLDEN_LEGGINGS
+  - DIAMOND_LEGGINGS
+  - NETHERITE_LEGGINGS
+  - LEATHER_BOOTS
+  - CHAINMAIL_BOOTS
+  - IRON_BOOTS
+  - GOLDEN_BOOTS
+  - DIAMOND_BOOTS
+  - NETHERITE_BOOTS
+bowList:
+  - BOW
+
+#自定义提示是否启用插件前缀
+enablePrefix: true
+
+#是否启用音效
+enableSoundEffect: true
+
+#详细音效参见：https://bukkit.windit.net/javadoc/org/bukkit/Sound.html
+#查找方法：ctrl+f查找 比如你想要玩家经验变动时相关的音效，请键入 experience | 村民相关音效，请键入villager，同理，方块请键入block
+#成功音效 （请先启用音效）
+successSoundEffect: "ENTITY_EGG_THROW"
+#失败音效 （请先启用音效）
+failureSoundEffect: "ENTITY_VILLAGER_NO"

@@ -1,0 +1,179 @@
+#######################                       #######################
+#      _____                                                        #
+#     /    /  /\     /                              _   _   _       #
+#    /___ /  /  \   / |\_/|  _  ___ |\       \   / |_|  _| | |      #
+#   /    /  /    \ /  |   | | |  |  | |  -->  \_/.  _|.|_. |_|      #
+#  /    /  /      /   |   | |_|  |  |/                              #
+#                                                                   #
+####################         Strings.yml         ####################
+
+#
+#All strings in this file support placeholders!
+#
+
+#
+#Online Placeholders:
+#
+
+#
+#Placeholder: %online%
+#Description: display real server's online
+#
+
+#
+#Placeholder: %fakeOnline%
+#Description: display fake server's online
+#
+#This placeholder only works if you
+#allow usage of Data.yml file in
+#config.yml, by setting Data: true
+#
+
+#
+#MaxPlayers Placeholders:
+#
+
+#
+#Placeholder: %maxplayers%
+#Description: display number of real server's slots
+#
+
+#
+#Placeholder: %fakeMaxplayers%
+#Description: display number of fake server's
+#
+#This placeholder only works if you
+#allow usage of Data.yml file in
+#config.yml, by setting Data: true
+#
+
+#
+#Hex Colors Placeholders:
+#
+
+#
+#Placeholder: %#<color>%
+#Description: make a message of any color
+#Example: %#C8A2C8% or %#1CA9C9%
+#
+
+#
+#Placeholder: %#<from-color>->#<to-color>:<text>;<arg-1>;<arg-2>;...<arg-6>%
+#(place formatting codes after ; (these are &k,&l,&m,&n,&o,&r)
+#If you don't want to use formatting codes, don't place them)
+#Description: make a gradient message
+#Example: %#C8A2C8->#1CA9C9:Gradient!;&l%
+#
+#IMPORTANT!
+#Please note that the order of the formatting codes
+#is not strict, but the result directly depends on it.
+#To ensure that the outcome text meets your expectations,
+#arrange the codes in the correct order for you.
+#
+    
+Motd:
+    
+    #What should be displayed on line 1 of your Motd:
+    #(if you have more than 1 line, random will be selected
+    #but it will be on the same position as a line in LineTwo section)
+    LineOne:
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+        - "&6&lOrh V &7&l|&r &f1.19.3 &a&lVanilla &7&l| &r由 &d&lSakura Frp&r 强力驱动！"
+    
+    #What should be displayed on line 2 of your Motd:
+    #(if you have more than 1 line, random will be selected
+    #but it will be on the same position as a line in LineOne section)
+    LineTwo:
+        - "&a&k###&r 我一勺&l&6三花淡奶 &r！&a&k###"
+        - "&a&k###&r 不是每个东北人都会&l&b二人转&r！&a&k###"
+        - "&a&k###&r 华尔兹般的&6&l完美降落&r！&a&k###"
+        - "&a&k###&r 首先，你的出发点是好的，其次，你先&l&b不要出发&r！&a&k###"
+        - "&a&k###&r &l&6V me 50！&r&a&k###"
+        - "&a&k###&r &9&lGalaxy Brain &rMeme&r！&a&k###"
+        - "&a&k###&r 你是哪个省的？&6&l妈妈生的&r！&a&k###"
+        - "&a&k###&r 怎么又&l&b内 存 溢 出&r啦&r！&a&k###"
+        - "&a&k###&r 还有人记得这是&l&c几周目&r吗&r？&a&k###"
+        - "&a&k###&r 给阿姨倒一杯&6&l卡布奇诺&r！&a&k###"
+        - "&c&k&l###&l &c春风吹十里，莺啼报新年！&c&k###"
+        - "&a&k###&r 大烤肠&b&l真↑好↓吃→&r！&a&k###"
+        - "&a&k###&r 按&b&lAlt+F4&r获得一箱钻石&r！&a&k###"
+        - "&a&k###&r &6&l首先，&r我没惹任何人，&b&l其次，&r我没惹任何人&r！&a&k###"
+        - "&a&k###&r &6&l臭豆腐&4&l腐乳&r加&e&l柠檬&r，你看这&6&l汉堡&r做滴行不行&r！&a&k###"
+        - "&a&k###&r &b雪豹闭嘴&r！&a&k###"
+        - "&a&k###&r &b止言，雪豹&r！&a&k###"
+        - "&a&k###&r 啊！&e&lBa↓na↑na→&r！&a&k###"
+        - "&a&k###&r &8你知道吗：你不知道&r！&a&k###"
+        - "&a&k###&r 需要医疗兵！&c&l桑尼铁塔&r！&a&k###"
+        - "&a&k###&r miao114miao&b&l【崭新出厂】&r！&a&k###"
+        - "&a&k###&r A1高闪来一个好嘛？！&6&l秋梨膏&r！&a&k###"
+        - "&a&k###&r 马哥你怎么摔死了马哥&r！&a&k###"
+        - "&a&k###&r 好！&6&l很有精神&r！&a&k###"
+        - "&a&k###&r &e齐 天 大 剩&r！&a&k###"
+        - "&a&k###&r 俏佳人请远离&b&l杰哥&r！&a&k###"
+        - "&a&k###&r 你是忻的开头诗的内容童话的结尾&r……？&a&k###"
+        - "&a&k###&r saminamina~eiei~wakawaka eiei~&r&a&k###"
+        - "&d&k&l###&l &d你是信的开头诗的内容童话的结尾&d&k###"
+        - "&d&k&l###&l &d你是理所当然的奇迹，你是月色真美&d&k###"
+        - "&a&k###&r 既然你看到我了，那就快去给我&b&l三连&r！&a&k###"
+        - "&a&k###&r 停一下，想想你的妈妈有没有交代你做什么事你忘了&r！&a&k###"
+        - "&a&k###&r 你满血时骷髅的准度：&b逊&r，残血：&6神射手&r！&a&k###"
+        - "&a&k###&r 什么叫优雅？答：&6ⅠⅠⅣVⅠⅣ&r！&a&k###"
+        - "&a&k###&r 什么叫技术主播啊（战术后仰&r&a&k###"
+        - "&a&k###&r 啊！&e&lBa↓na↑na→&r！&a&k###"
+    
+HoverBox:
+
+    #What text should be displayed when you hover over a player amount text:
+    HoverText:
+        - "&c&lANMotd &r&f&lInfo"
+        - "&7&m----------"
+        - ""
+        - "&b&lOnline: &r&f&l%fakeOnline%"
+        - "&b&lMaxPlayers: &r&f&l%fakeMaxplayers%"
+        - ""
+        - "&6Donate: &7&l&oexample.com"
+        - ""
+        - "&fHave any &6questions&f?"
+        - "Feel free to &6ask&f me on spigot!"
+        - ""
+        - "&7&m----------"
+        
+Version:
+    
+    #What text should be displayed instead of player amount text:
+    VersionText: "-"
+    
