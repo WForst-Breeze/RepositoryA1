@@ -1,0 +1,36 @@
+FirstJoin_Message: '&6欢迎莅临 Orh V 服务器, %player%!'
+Join_Message: '&a欢迎回来, %player%!'
+Random_Message: true
+Random_Join_Message:
+- '&a%player% 从天而降！'
+- '&a%player% 出现了！'
+- '&a%player% 悄悄地加入了服务器'
+Join_Titles: true
+FirstJoin_Titles: true
+Title_FirstLine_Join: '&6欢迎回来, %player%!'
+Title_SecondLine_Join: '&a玩的开心！'
+Title_FirstLine_FirstJoin: '&6欢迎来到 OrhV 服务器!'
+Title_SecondLine_FirstJoin: '&a玩的开心!'
+Title_FadeIn: 10
+Title_FadeStay: 70
+Title_FadeOut: 10
+JoinMessage_Staff: false
+Staff_Join_Message: '&a%player% has joined the server!'
+Staff_Silent_Join: true
+Leave_Message: '&c%player% 离开了。'
+JoinAnnouncements_Enabled: true
+JoinAnnouncement_Message:
+- '&b===================================='
+- '&b欢迎回到 Orh V 生存服务器, %player%!'
+- '&b===================================='
+- '&b我也不知道该写什么，那提醒喵喵不要跑图！'
+- '&b===================================='
+Spawn_Firework: true
+Firework_Delay: 5
+Join_Sound: true
+BossBar_Enabled: true
+BossBar_Timer: 5
+BossBar_Message: '&6欢迎游玩 Orh V!'
+BossBar_Color: PINK
+BossBar_Style: Solid
+Config_Version: 1.2
