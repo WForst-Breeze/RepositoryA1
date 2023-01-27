@@ -6,7 +6,7 @@ header-footer:
   disable-in-servers:
     - disabledserver
   header:
-    - "&6&l---- Orh V ---- "
+    - "&6&l---- Orh V 测试服 ---- "
     - "&7在线玩家: &f%online%"
     - "%animation:MyAnimation1%"
   footer:

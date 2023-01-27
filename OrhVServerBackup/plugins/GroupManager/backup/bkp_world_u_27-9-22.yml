@@ -1,0 +1,14 @@
+users:
+  204d5ac8-d849-485d-a29b-72a28606b07c:
+    lastname: miao114miao
+    group: Default
+    subgroups: []
+    permissions:
+    - multiverse.portal.access.creative_portal
+  3b9d47e6-f49c-40b2-ad5f-8e05294a799e:
+    lastname: urbbrgroun
+    group: Default
+    subgroups: []
+    permissions:
+    - multiverse.portal.access.creative_portal
+    - multiverse.portal.access.survival_portal

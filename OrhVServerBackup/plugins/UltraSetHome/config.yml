@@ -16,7 +16,7 @@
 automatic_config_updater: false
 
 use_permissions: false
-home_limit: 36
+home_limit: 27
 command_cooldown_home: 90
 teleport_delay: 5
 teleport_delay_check_movement: true

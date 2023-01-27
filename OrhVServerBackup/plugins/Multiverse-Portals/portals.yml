@@ -1,0 +1,21 @@
+portals:
+  creative_portal:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: WForst_Breeze
+    location: -421.0,76.0,2764.0:-421.0,78.0,2776.0
+    world: world
+    destination: cz
+  survival_portal:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: WForst_Breeze
+    location: -199.0,63.0,-3.0:-196.0,65.0,-3.0
+    world: cz
+    destination: world

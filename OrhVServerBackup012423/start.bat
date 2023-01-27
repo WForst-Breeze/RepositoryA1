@@ -1,1 +1,0 @@
-java -Xms1G -Xmx5G -jar server.jar
